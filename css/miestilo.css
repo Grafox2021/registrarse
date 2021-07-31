@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'Quicksand', sans-serif;
+	font-family: adventure;
+	src: url(../Adventure.otf);
+}
+body{
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #fff;
+}
+
+.caja-negra{
+	background-color: #090B0D;
+	color: white;
+	font-size: 1.1rem;
+	font-weight: ;
+	padding: 1.1rem 5rem;
+}
+.logo-grafox{
+	margin-left: 130px;
+}
+.botones-1{
+	background-color: #090B0D;
+	color: white;
+	border-radius: 30px;
+	border: 0.3px solid;
+	border-color: gray;
+	font-size: 12px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.parrafo-1{
+	font-size: 13px;
+	color: gray;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.form-control{
+	background-color: #191C21;
+	border: 0px solid;
+	border-radius: .2rem;
+	padding: 1.5rem 1rem;
+	font-size: 1rem;
+}
+.terminos{
+	font-size: 15px;
+}
+.boton-registrarse{
+	background-color: #0468BF;
+	color: white;
+	font-size: 13px;
+	padding: 1rem 2rem;
+	border-radius: 25px;
+	border: 0px solid;
+}
+
+.fondo{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.fondo img{
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
